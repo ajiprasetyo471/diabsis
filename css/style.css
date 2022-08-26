@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Poppins:wght@200;300;400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+}
+
+.center-nav {
+  margin: auto;
+}
+
+.nav-item-top {
+  margin-right: 3rem;
+}
+
+.nav-item-top:nth-child(4) {
+  margin-right: 0rem;
+}
+
+.jumbotron {
+  margin-top: 3rem;
+  background-color: #16195e;
+}
+
+.jumbo-container {
+  display: flex;
+}
+
+.jumbo-1-cont {
+  padding: 3rem 0;
+}
+
+.jumbo-1 {
+  width: 85%;
+  margin: auto;
+  padding-left: 5rem;
+}
+
+.heading-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 4vmax;
+}
+
+.jumbo-2 {
+  background-image: url('../img/gambar-jumbo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.desc {
+  margin: 3rem 0;
+}
+
+.desc-cont {
+  width: 90%;
+  margin-top: 4rem;
+  margin-left: 0;
+  display: flex;
+}
+
+.blue-text {
+  color: #16195e;
+}
+
+.desc-title {
+  width: 60%;
+}
+
+.desc-icon {
+  font-size: 6vmax;
+  margin: 0 0 2rem 0.5rem;
+}
+
+.btn-light {
+  background-color: #fff;
+}
+
+.footer {
+  background: #16195e;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.footer-link {
+  color: rgb(202, 199, 199);
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.histori {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scrollingTable {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.div-histori {
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+}
+
+.div-histori-panjang {
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+  .heading-title {
+    font-size: 5vmax;
+  }
+
+  .jumbo-1 {
+    width: 90%;
+    padding-left: 3rem;
+  }
+
+  .desc-cont {
+    width: 100%;
+  }
+
+  .div-histori {
+    width: 50px;
+  }
+
+  .div-histori-panjang {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .jumbo-container {
+    flex-direction: column-reverse;
+  }
+
+  .jumbo-1 {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .jumbo-2 {
+    height: 25rem;
+  }
+
+  .desc-title {
+    width: 100%;
+  }
+
+  .desc-cont {
+    flex-direction: column;
+  }
+
+  .desc-item {
+    margin-bottom: 3rem;
+    padding-left: 0;
+  }
+
+  .div-histori {
+    width: 50px;
+  }
+
+  .div-histori-panjang {
+    width: 70px;
+  }
+}
